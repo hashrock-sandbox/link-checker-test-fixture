@@ -1,7 +1,7 @@
 import { Handlers } from "$fresh/server.ts";
 
 function redirect(_: Request) {
-  const path = "/page4-new";
+  const path = "/page5-new";
   return new Response(`Redirecting to ${path}`, {
     headers: { "Location": path },
     status: 301,

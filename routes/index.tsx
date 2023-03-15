@@ -25,6 +25,9 @@ export default function Home() {
           <li>
             <a href="/page4">Page4 - Redirect</a>
           </li>
+          <li>
+            <a href="/page5">Page5 - Redirect not exist</a>
+          </li>
         </ul>
       </div>
     </>
